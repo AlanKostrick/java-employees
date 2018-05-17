@@ -32,7 +32,7 @@ public class EmployeeControllerTest {
 	private Model model;
 	
 	@Before
-	public void setup() {
+	public void setUp() {
 		MockitoAnnotations.initMocks(this);
 	}
 
