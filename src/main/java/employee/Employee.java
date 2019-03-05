@@ -13,6 +13,10 @@ public class Employee {
 
 	private String name;
 
+	public Long getId() {
+		return id;
+	}
+
 	public String getName() {
 		return name;
 	}
@@ -24,5 +28,6 @@ public class Employee {
 	public Employee(String name) {
 		this.name = name;
 	}
+
 
 }
